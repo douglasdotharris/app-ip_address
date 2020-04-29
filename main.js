@@ -75,6 +75,7 @@ class IpAddress {
         ipv4: firstIpAddress, 
         ipv6: ipV6,
       }
+    console.log(`*** ipV4V6Address${JSON.stringify(ipV4V6Address)} ***`)
     } 
     // Call the passed callback function.
     // Node.js convention is to pass error data as the first argument to a callback.
